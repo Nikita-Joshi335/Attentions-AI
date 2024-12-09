@@ -5,11 +5,11 @@ import google.generativeai as genai
 import networkx as nx
 
 # Configure the Gemini model
-genai.configure(api_key='AIzaSyAAF1cFQJy_zDZKIx8NhZuHKBExZ7mHYLM')
+genai.configure(api_key='')
 gemini_model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Weather API key
-OPENWEATHER_API_KEY = "0ae4bf4c7bd39f11cabfb5d7d0a219ff"
+OPENWEATHER_API_KEY = ""
 
 # Hardcoded login credentials (for simplicity)
 VALID_CREDENTIALS = {"admin": "password123", "user123": "pass123", "nikita": "nikita"}
